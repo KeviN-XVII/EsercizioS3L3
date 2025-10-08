@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EsercizioS3L3 TASK</title>
+    <link rel="stylesheet" href="./Css/reset.css" />
+    <link rel="stylesheet" href="./Css/postreset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="logo.svg" alt="Logo" />
+    </header>
+    <main>
+      <form id="task-form">
+        <div class="input-container">
+          <h3>AGGIUNGI UNA NUOVA TASK</h3>
+          <input
+            type="text"
+            id="taskInput"
+            placeholder="Inserisci una nuova task"
+          />
+          <button onclick="newTask()">Aggiungi Task</button>
+        </div>
+      </form>
+      <h2>LE TUE TASK</h2>
+      <ul id="taskList"></ul>
+    </main>
+    <footer></footer>
+    <script src="task.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
+  <!-- Cerchio nero -->
+  <circle cx="80" cy="100" r="60" fill="#000"/>
+
+  <!-- Check bianco -->
+  <path d="M55 100 L75 120 L110 80" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Testo "LeMieTask" -->
+  <text x="170" y="115" font-family="Times New Roman, serif" font-size="60" font-weight="700" fill="#000">LeMieTask</text>
+</svg>
