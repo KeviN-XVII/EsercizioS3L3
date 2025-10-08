@@ -77,6 +77,7 @@ ul {
 .fas.fa-trash-alt:hover {
   color: rgb(255, 0, 0);
 }
+/* span e .completed styles */
 
 .completed {
   text-decoration: line-through;

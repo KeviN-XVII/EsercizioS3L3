@@ -16,11 +16,18 @@ form.addEventListener("submit", function (event) {
   const card = document.createElement("div");
   card.classList.add("task-card");
   card.innerHTML = `
-    <li class="task-item">${taskValue} <i class="fas fa-trash-alt" onclick="deleteTask(event)"></i></li> 
+  <li class="task-item"><span class="task-text">${taskValue}</span>
+  <i class="fas fa-trash-alt" onclick="deleteTask(event)"></i>
+    </li>
   `;
 
   const container = document.getElementById("taskList");
   container.appendChild(card);
+
+  const taskText = card.querySelector(".task-text");
+  taskText.addEventListener("click", function () {
+    taskText.classList.toggle("completed");
+  });
 
   form.reset();
 });
